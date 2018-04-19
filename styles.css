@@ -8,6 +8,13 @@ body {
     background-color: paleturquoise;
 }
 
+footer {
+    border: 2px solid maroon;
+    background-color: paleturquoise;
+    max-width: 100%;
+    height: auto;
+}
+
 
 .test {
     border: 2px solid black;
@@ -21,3 +28,9 @@ body {
     text-align: center;
 }
 
+
+#OverviewMountains {
+    background-image: url(./mountainbackgroundtest.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
