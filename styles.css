@@ -1,11 +1,21 @@
 /* fancy CSS stuff will commence here */
 
 
-
+/*
 body {
     margin: 0%;
     padding: 0%;
     background-color: paleturquoise;
+}
+*/
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(./mountainbackgroundtest.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 footer {
@@ -17,8 +27,8 @@ footer {
 
 
 .test {
-    border: 2px solid black;
-    background-color: paleturquoise;
+    /* border: 2px solid black;
+    background: none; */
     max-width: 100%;
     min-height: 102vh;
     margin: 0%;
@@ -28,9 +38,18 @@ footer {
     text-align: center;
 }
 
-
+/*
 #OverviewMountains {
     background-image: url(./mountainbackgroundtest.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+*/
+
+
+
+#AboutMeForest {
+    background-image: url(./aboutmeforesttest.svg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
