@@ -1,0 +1,51 @@
+/* fancy CSS stuff will commence here */
+
+/*
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: paleturquoise;
+}
+*/
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-image: url(./images/mountainbackgroundtest.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+footer {
+  border: 2px solid maroon;
+  background-color: paleturquoise;
+  max-width: 100%;
+  height: auto;
+}
+
+.test {
+  /* border: 2px solid black;
+    background: none; */
+  max-width: 100%;
+  min-height: 102vh;
+  margin: 0%;
+}
+
+.center {
+  text-align: center;
+}
+
+/*
+#OverviewMountains {
+    background-image: url(./mountainbackgroundtest.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+*/
+
+#AboutMeForest {
+  background-image: url(./images/aboutmeforesttest.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
