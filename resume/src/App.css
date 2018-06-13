@@ -28,7 +28,7 @@ footer {
   /* border: 2px solid black;
     background: none; */
   max-width: 100%;
-  min-height: 102vh;
+  min-height: 90vh;
   margin: 0%;
 }
 
@@ -36,16 +36,38 @@ footer {
   text-align: center;
 }
 
-/*
+/* 
 #OverviewMountains {
-    background-image: url(./mountainbackgroundtest.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-*/
+  margin: 0%;
+  padding: 0%;
+  background-image: url(./images/mountainbackgroundtest.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+} */
+
 
 #AboutMeForest {
   background-image: url(./images/aboutmeforesttest.svg);
   background-repeat: no-repeat;
   background-size: 100%;
+  width: 100vw;
+  height: 69vw;
+
+}
+
+#PastExperienceRiver {
+  background-image: url(./images/pastexperiencerivertest.svg);
+  background-repeat: no-repeat;
+  background-size: 104%;
+  width: 100vw;
+  height: 69vw;
+  margin-top: -1em;
+}
+
+#ImaginationOcean {
+  background-color: darkblue;
+  margin: -1em 0em;
+  width: 100vw;
+  height: 69vw;
 }

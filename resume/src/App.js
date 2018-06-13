@@ -5,7 +5,7 @@ import Overview from './pages/overview.jsx';
 import About from './pages/about.jsx';
 import Experience from './pages/experience.jsx';
 import Portfolio from './pages/portfolio.jsx';
-
+import Nav from './pages/nav.jsx';
 
 
 
@@ -18,6 +18,8 @@ class App extends Component {
     return (
       <div className="App">
 
+        <Nav/>
+
         <Overview/>
         
         <About/>
@@ -26,12 +28,12 @@ class App extends Component {
         
         <Portfolio/>
 
-        <footer>
+        {/* <footer>
           <p>links to all the goodies</p>
           <p>although it just ocurred to me that I might put all the social media icons
               in bubbles that are coming up from a treasure chest or fat fish or something
           </p>
-        </footer>
+        </footer> */}
 
       </div>
     );

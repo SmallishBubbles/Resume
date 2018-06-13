@@ -6,7 +6,7 @@ import React from 'react';
 class Portfolio extends React.Component {
     render() {
         return (
-            <section class="test">
+            <section class="test" id="ImaginationOcean">
                 <p>This is where I get to put fun stuff!</p>
                 <p>Like some of my art portfolio maybe</p>
                 <p>A list of my current projects and fun things</p>
