@@ -12,22 +12,32 @@ const NavWrapper = styled.nav`
     vertical-align: middle;
 `;
 
-const Link = styled.div`
+const Element = styled.div`
 	text-align: center;
 	padding: 1em;
 	// border-radius: 5px 15px 5px;
 `;
 
+const Link = styled.a`
+	color: black;
+	text-decoration: none;
+`;
+
+
+
+
 
 class Nav extends React.Component {
     render() {
-        return <NavWrapper>
-					<Link>HOME</Link>
-					<Link>ABOUT ME</Link>
-					<Link>BLOG</Link>
-					<Link>RESUME</Link>
-					<Link>PORTFOLIO</Link>
-				</NavWrapper>
+        return (
+			<NavWrapper>
+				<Link href="#OverviewMountains"><Element> HOME </Element></Link>
+				<Link href="#AboutMeForest"><Element> ABOUT ME </Element></Link>
+				<Element>BLOG</Element>
+				<Link href="#PastExperienceRiver"><Element> RESUME </Element></Link>
+				<Link href="#ImaginationOcean"><Element> PORTFOLIO </Element></Link>
+			</NavWrapper>
+		);
     }
 };
 

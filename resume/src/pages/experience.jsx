@@ -7,49 +7,49 @@ const Title = styled.div`
 	clear: both;
 	margin: auto;
 	padding: 2px;
-
 	height: auto;
 	width: 50%;
-
 	text-align: center;
 	font-size: 3em;
-	text-shadow: 1px 1px 10px white;
 `;
 
 const Education = styled.div`
-    float: left;
-    clear: left;
-	height: 10em;
+	float: left;
+	clear: left;
+	height: 15%;
 	width: 30%;
-    background-color: rgb(161, 171, 175, 0.75);
-    border: 2px solid black;
-    margin: 5em 2em;
-    border-radius: 5px 30px;
-    text-align: center;
+	background-color: rgb(161, 171, 175, 0.75);
+	margin: 5em 2em;
+	border-radius: 5px 30px;
+	text-align: center;
+    //box-shadow: -2px -2px 5px inset #2d4465;
+    padding: 1%;
 `;
 
 const Job = styled.div`
 	float: right;
 	clear: right;
-	height: 10em;
+	height: 15%;
 	width: 30%;
 	background-color: rgb(161, 171, 175, 0.75);
-	border: 2px solid black;
 	margin-right: 2em;
-    border-radius: 30px 5px;
-    text-align: center;
+	border-radius: 30px 5px;
+	text-align: center;
+    //box-shadow: 2px -2px 5px inset #2d4465;
+    padding: 1%;
 `;
 
 const Resume = styled.div`
 	float: left;
 	clear: left;
-	height: 5em;
+	height: 10%;
 	width: 30%;
 	background-color: rgb(161, 171, 175, 0.75);
-	border: 2px solid black;
 	margin: 2em;
-    border-radius: 5px 30px;
-    text-align: center;
+	border-radius: 5px 30px;
+	text-align: center;
+    //box-shadow: -2px -2px 5px inset #2d4465;
+    padding: 1%;
 `;
 
 class Experience extends React.Component {

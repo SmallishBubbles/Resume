@@ -12,7 +12,6 @@ const Photo = styled.div`
 `;
 
 const Name = styled.h1`
-    text-shadow: 1px 1px 10px white;
 `
 
 class Overview extends React.Component {
@@ -24,7 +23,7 @@ class Overview extends React.Component {
 
                 {/* this is where I will put my image of said self person */}
                 <Name>Marisha Hoza</Name>
-                <Name>Artist - Budding Web Designer</Name>
+                <Name>Full Stack Web Developer - Artist</Name>
 
                 <p>Be uncommon.</p>
                 <p>Skip to my resume: link</p> 

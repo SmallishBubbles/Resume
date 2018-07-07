@@ -11,7 +11,7 @@ body {
 body {
   margin: 0%;
   padding: 0%;
-  background-image: url(./images/mountainbackgroundtest.svg);
+  background-image: url(./images/overviewmountainnostrokelong.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
@@ -36,38 +36,98 @@ footer {
   text-align: center;
 }
 
-/* 
+
+a:hover{
+  color: lightgrey;
+  text-decoration: none;
+}
+
 #OverviewMountains {
-  margin: 0%;
-  padding: 0%;
-  background-image: url(./images/mountainbackgroundtest.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
-} */
+  color: black;
+}
 
 
 #AboutMeForest {
-  background-image: url(./images/aboutmeforesttest.svg);
+  background-image: url(./images/aboutmeforestbluelong.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100vw;
-  height: 69vw;
+  height: 75vw;
 
 }
 
 #PastExperienceRiver {
-  background-image: url(./images/pastexperiencerivertest.svg);
+  background-color: #477ab2;
   background-repeat: no-repeat;
   background-size: 104%;
   width: 100vw;
-  height: 69vw;
+  height: 75vw;
   margin-top: -1em;
 }
 
 #ImaginationOcean {
-  background-color: darkblue;
+  background-color: #7bb1dd;
   margin: -1em 0em;
   width: 100vw;
-  height: 69vw;
+  height: 75vw;
+}
+
+
+
+
+
+#city {
+  background-image: url(./images/icons/city.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+#mountains {
+  background-image: url(./images/icons/mountains.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+#unicorn {
+  background-image: url(./images/icons/unicorn.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+}
+
+#mermaid {
+  background-image: url(./images/icons/mermaid.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+}
+
+#dog {
+  background-image: url(./images/icons/doggo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55%;
+}
+
+#cat {
+  background-image: url(./images/icons/cat.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55%;
+}
+
+#tea {
+  background-image: url(./images/icons/tea.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75%;
+}
+
+#coffee {
+  background-image: url(./images/icons/coffee.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 59%;
 }
