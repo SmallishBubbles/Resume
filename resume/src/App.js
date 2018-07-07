@@ -10,6 +10,11 @@ import OtherNav from './pages/otherNav.jsx';
 
 
 
+
+
+// server endpoint:   HTTP:  https://eu1.prisma.sh/marisha-20738f/personalWebsite/dev
+
+
 class App extends Component {
   componentDidMount() {
     document.title = "Marisha Hoza"

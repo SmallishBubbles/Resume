@@ -6,7 +6,8 @@ const Photo = styled.div`
 	height: 10em;
 	border-radius: 50%;
 	margin: auto;
-    margin-top: 15%;
+	margin-top: 15%;
+	box-shadow: 0px 0px 10px;
 `;
 
 const Name = styled.h1`
