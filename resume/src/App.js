@@ -5,7 +5,7 @@ import Overview from './pages/overview.jsx';
 import About from './pages/about.jsx';
 import Experience from './pages/experience.jsx';
 import Portfolio from './pages/portfolio.jsx';
-import Nav from './pages/nav.jsx';
+// import Nav from './pages/nav.jsx';
 import OtherNav from './pages/otherNav.jsx';
 
 

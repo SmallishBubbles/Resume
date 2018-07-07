@@ -46,6 +46,13 @@ a:hover{
   color: black;
 }
 
+#selfperson {
+  background-image: url(./images/icons/selfperson.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
 
 #AboutMeForest {
   background-image: url(./images/aboutmeforestbluelong.svg);

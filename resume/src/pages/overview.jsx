@@ -4,11 +4,9 @@ import styled from 'styled-components';
 const Photo = styled.div`
 	width: 10em;
 	height: 10em;
-	border: 2px solid black;
 	border-radius: 50%;
 	margin: auto;
-	margin-top: 15%;
-	background-color: rgb(136, 114, 142, 0.75);
+    margin-top: 15%;
 `;
 
 const Name = styled.h1`
@@ -19,7 +17,7 @@ class Overview extends React.Component {
         return (
             <section className="test center" id="OverviewMountains">
 
-                <Photo></Photo>
+                <Photo id="selfperson"></Photo>
 
                 {/* this is where I will put my image of said self person */}
                 <Name>Marisha Hoza</Name>
