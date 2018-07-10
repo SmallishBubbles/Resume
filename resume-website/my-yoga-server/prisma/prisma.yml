@@ -1,6 +1,0 @@
-endpoint: https://eu1.prisma.sh/marisha-20738f/personal-website/dev
-datamodel: datamodel.graphql
-
-hooks:
-  post-deploy:
-    - graphql get-schema -p prisma
