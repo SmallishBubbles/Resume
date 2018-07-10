@@ -11,6 +11,10 @@ const Photo = styled.div`
 `;
 
 const Name = styled.h1`
+    font-family: 'Sacramento', cursive;
+    font-size: 3em;
+    padding: 0px;
+    margin: 2% 0% 0%;
 `
 
 class Overview extends React.Component {
@@ -22,7 +26,7 @@ class Overview extends React.Component {
 
                 {/* this is where I will put my image of said self person */}
                 <Name>Marisha Hoza</Name>
-                <Name>Full Stack Web Developer - Artist</Name>
+                <h1>Full Stack Web Developer - Artist</h1>
 
                 <p>Be uncommon.</p>
                 <p>Skip to my resume: link</p> 

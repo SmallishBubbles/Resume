@@ -29,7 +29,7 @@ const Skill = styled.div`
 	margin: 2% 2%;
 	padding: 2% 2.5%;
 	background-color: #344f76;
-	font-size: 1.25em;
+	font-size: 1.5vw;
 `;
 
 const Blurb = styled.div`
@@ -39,7 +39,7 @@ const Blurb = styled.div`
 	margin: 10% 2% 4%;
 	background-color: #344f76;
 	padding: 5%;
-	font-size: 200%;
+	font-size: 2.5vw;
 `;
 
 // --------------------- skill bars and info ---------------------------
@@ -109,11 +109,28 @@ const AboutPic = styled.div`
 	margin: 1%;
 `
 
-const Slider = styled.div`
+const SliderBox = styled.div`
 	height: 90%;
 	width: 24%;
 	display: inline-block;
 	margin: 1%;
+`
+
+const SliderLine = styled.div`
+	width: 100%;
+	height: 2px;
+	background-color: black;
+	margin: 70% auto;
+`
+
+const Slider = styled.div`
+	width: 20%;
+	height: 20%;
+	border-radius: 5px;
+	background-color: grey;
+	position: relative;
+	top: -63%;
+	left: 40%;
 `
 
 
@@ -165,12 +182,18 @@ class About extends React.Component {
 
 					<Test> 
 						<AboutPic id="city"/>  
-						<Slider />
+						<SliderBox>
+							<SliderLine/>
+							<Slider/>
+						</SliderBox>
 						<AboutPic id="mountains"/> 
 					</Test>
 					<Test> 
 						<AboutPic id="unicorn"/>  
-						<Slider />
+						<SliderBox>
+							<SliderLine />
+							<Slider />
+						</SliderBox>
 						<AboutPic id="mermaid"/> 
 					</Test>
 
@@ -178,12 +201,18 @@ class About extends React.Component {
 
 					<Test> 
 						<AboutPic id="dog"/>  
-						<Slider />
+						<SliderBox>
+							<SliderLine />
+							<Slider />
+						</SliderBox>
 						<AboutPic id="cat"/> 
 					</Test>
 					<Test> 
 						<AboutPic id="tea"/>  
-						<Slider />
+						<SliderBox>
+							<SliderLine />
+							<Slider />
+						</SliderBox>
 						<AboutPic id="coffee"/> 
 					</Test>
 					

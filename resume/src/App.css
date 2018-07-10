@@ -8,6 +8,8 @@ body {
 }
 */
 
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Sacramento');
+
 body {
   margin: 0%;
   padding: 0%;
@@ -15,6 +17,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
+  font-family: 'Josefin Slab', serif;
 }
 
 footer {
@@ -68,7 +71,7 @@ a:hover{
   background-repeat: no-repeat;
   background-size: 104%;
   width: 100vw;
-  height: 75vw;
+  height: 79vw;
   margin-top: -1em;
 }
 

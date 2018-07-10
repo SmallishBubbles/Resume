@@ -1,46 +1,67 @@
 type User {
   id: ID! @unique
   name: String!
-  email: String! @unique
-  password: String!
-  blogs: [Blog!]!
-  comments: [Comment!]!
+  posts: [Post!]!
 }
 
-
-# for blog section
-
-type Blog {
+type Post {
   id: ID! @unique
-  author: User!
-  createdAt: DateTime!
   title: String!
   content: String!
-  comments: [Comment!]!
   published: Boolean! @default(value: "false")
-}
-
-type Comment {
-  id: ID! @unique
-  blog: Blog!
-  user: User!
-  createdAt: DateTime!
-  comment: String!
+  author: User!
 }
 
 
-# for skill section
-
-type Skill {
-  skill: String!
-  level: Int!
-}
 
 
-# possible project section
 
-type Project {
-  image: String!
-  title: String!
-  languages: [Skill!]!
-}
+# type User {
+#   id: ID! @unique
+#   name: String!
+#   email: String! @unique
+#   password: String!
+#   blogs: [Blog!]!
+#   comments: [Comment!]!
+# }
+
+
+# # for blog section
+
+# type Blog {
+#   id: ID! @unique
+#   author: User!
+#   createdAt: DateTime!
+#   title: String!
+#   content: String!
+#   comments: [Comment!]!
+#   published: Boolean! @default(value: "false")
+# }
+
+# type Comment {
+#   id: ID! @unique
+#   blog: Blog!
+#   user: User!
+#   createdAt: DateTime!
+#   comment: String!
+# }
+
+
+# # for skill section
+
+# type Skill {
+#   skill: String!
+#   level: Int!
+# }
+
+
+# # possible project section
+
+# type Project {
+#   image: String!
+#   title: String!
+#   languages: [Skill!]!
+# }
+
+
+

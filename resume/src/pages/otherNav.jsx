@@ -10,6 +10,8 @@ const NavWrapper = styled.div`
 `
 
 const NavStuff = styled.nav`
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5em;
 `;
 
 const Element = styled.div`
@@ -33,10 +35,10 @@ class OtherNav extends React.Component {
         return (
             <NavWrapper>
                 <NavStuff>
-                    <Link><Element> BLOG </Element></Link>
-                    <Link href="#ImaginationOcean"><Element> PORTFOLIO </Element></Link>
-                    <Link href="#PastExperienceRiver"><Element>RESUME</Element></Link>
-                    <Link href="#Overviewmountains"><Element> ABOUT </Element></Link>
+                    <Link><Element> Blog </Element></Link>
+                    <Link href="#ImaginationOcean"><Element> Portfolio </Element></Link>
+                    <Link href="#PastExperienceRiver"><Element>Resume</Element></Link>
+                    <Link href="#Overviewmountains"><Element> About </Element></Link>
                 </NavStuff>
             </NavWrapper>
         );
