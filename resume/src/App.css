@@ -39,6 +39,10 @@ footer {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: #163e6b;
+}
 
 a:hover{
   color: lightgrey;

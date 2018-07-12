@@ -84,7 +84,7 @@ const Test = styled.div`
 `
 
 const Test2 = styled.div`
-	height: 30%;
+	height: 40%;
 	width: 40%;
 	display: block;
 	float: left;
@@ -93,14 +93,16 @@ const Test2 = styled.div`
 `
 
 const Test3 = styled.div`
-	border: 2px solid black;
-	height: 58%;
+	height: 48%;
 	width: 40%;
 	display: block;
 	float: left;
 	clear: left;
 	margin: 3% 0% 0% 3%;
-`
+	text-align: center;
+	font-size: 2.5vw;
+	color: #686c4f;
+`;
 
 const AboutPic = styled.div`
 	height: 90%;
@@ -197,7 +199,19 @@ class About extends React.Component {
 						<AboutPic id="mermaid"/> 
 					</Test>
 
-					<Test3 />
+					<Test3>
+						Motto:<br/>
+						Be uncommon.
+						<br/>
+						<br/>
+						Hometown:<br/>
+						North Pole, AK
+						<br/>
+						<br/>
+
+
+
+					</Test3>
 
 					<Test> 
 						<AboutPic id="dog"/>  

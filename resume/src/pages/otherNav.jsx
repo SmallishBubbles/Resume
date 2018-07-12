@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
 const NavWrapper = styled.div`
     width: 95%;
     height: auto:
     background-color: rgb(17, 135, 206, 0.8);
     padding: 1%;
-    border-radius: 5px;
 `
 
 const NavStuff = styled.nav`
@@ -16,7 +16,7 @@ const NavStuff = styled.nav`
 
 const Element = styled.div`
 	text-align: center;
-    padding: 2%;
+    padding: 0.5% 0% 0% 3%;
     display: inline-block;
     float: right;
 `;
@@ -35,10 +35,10 @@ class OtherNav extends React.Component {
         return (
             <NavWrapper>
                 <NavStuff>
-                    <Link><Element> Blog </Element></Link>
+                    <Link to="/blog"><Element> Blog </Element></Link>
                     <Link href="#ImaginationOcean"><Element> Portfolio </Element></Link>
                     <Link href="#PastExperienceRiver"><Element>Resume</Element></Link>
-                    <Link href="#Overviewmountains"><Element> About </Element></Link>
+                    <Link to="#AboutMeForest"><Element> About </Element></Link>
                 </NavStuff>
             </NavWrapper>
         );

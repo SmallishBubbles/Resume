@@ -1,18 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import Overview from './pages/overview.jsx';
-import About from './pages/about.jsx';
-import Experience from './pages/experience.jsx';
-import Portfolio from './pages/portfolio.jsx';
-// import Nav from './pages/nav.jsx';
 import OtherNav from './pages/otherNav.jsx';
-
-
-
-
-
-// server endpoint:   HTTP:  https://eu1.prisma.sh/marisha-20738f/personalWebsite/dev
+import Home from './pages/home.jsx';
+import Blog from './pages/blog.jsx';
 
 
 class App extends Component {
@@ -22,28 +14,29 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <BrowserRouter>
+        <div className="App">
 
-        {/* <Nav/> */}
+          {/* <Nav/> */}
 
-        <OtherNav/>
+          <OtherNav/>
+          {/* <Overview/>        
+          <About/>       
+          <Experience/>      
+          <Portfolio/> */}
 
-        <Overview/>
-        
-        <About/>
-        
-        <Experience/>
-        
-        <Portfolio/>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/blog" component={Blog}/>
 
-        {/* <footer>
-          <p>links to all the goodies</p>
-          <p>although it just ocurred to me that I might put all the social media icons
-              in bubbles that are coming up from a treasure chest or fat fish or something
-          </p>
-        </footer> */}
+          {/* <footer>
+            <p>links to all the goodies</p>
+            <p>although it just ocurred to me that I might put all the social media icons
+                in bubbles that are coming up from a treasure chest or fat fish or something
+            </p>
+          </footer> */}
 
-      </div>
+        </div>
+      </BrowserRouter>
     );
   }
 }

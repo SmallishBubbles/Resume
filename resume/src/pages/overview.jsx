@@ -19,20 +19,17 @@ const Name = styled.h1`
 
 class Overview extends React.Component {
     render() {
-        return (
-            <section className="test center" id="OverviewMountains">
+        return <section className="test center" id="OverviewMountains">
+				<Photo id="selfperson" />
 
-                <Photo id="selfperson"></Photo>
+				{/* this is where I will put my image of said self person */}
+				<Name>Marisha Hoza</Name>
+				<h1>Full Stack Web Developer - Artist</h1>
 
-                {/* this is where I will put my image of said self person */}
-                <Name>Marisha Hoza</Name>
-                <h1>Full Stack Web Developer - Artist</h1>
-
-                <p>Be uncommon.</p>
-                <p>Skip to my resume: link</p> 
-                {/* lol I don't have a link for that yet! */}
-            </section>
-        )
+				<p>Be uncommon.</p>
+				<p>Skip to <a href="https://docs.google.com/document/d/1sBd1nafkn6v_ANm2CfoswxE_QdpmZZKLoVMjNVoalNE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">my paper resume</a></p>
+				{/* lol I don't have a link for that yet! */}
+			</section>;
     }
 };
 
