@@ -1,0 +1,89 @@
+/* temporary. for stuff that will be back-end soon */
+
+
+/* skills */
+.skillBar {
+    background-color: #686c4f;
+    height: auto;
+    padding: 0.5% 2%;
+    margin: 0.5% 0.5%;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+#skillHTML {
+    width: 70%;
+}
+
+#skillCSS {
+    width: 65%;
+}
+
+#skillJavaScript {
+    width: 65%;
+}
+
+#skillReact {
+    width: 50%;
+}
+
+#skillGraphQL {
+    width: 40%;
+}
+
+#skillNode {
+    width: 40%;
+}
+
+#skillNPM {
+    width: 60%;
+}
+
+#skillGitHub {
+    width: 55%;
+}
+
+
+/* fun info */
+
+#inOut {
+    left: 75%;
+}
+
+
+#magics {
+    left: 15%;
+}
+
+#pets {
+    left: 70%;
+}
+
+#drinky{
+    left: 30%;
+}
+
+
+
+
+
+
+#state{
+    top: -53%;
+    left: 50%;
+}
+
+#arr{
+    top: -83%;
+    left: 50%;
+}
+
+#OC{
+    top: -46%;
+}
+
+#art{
+    left: 50%;
+    top: -25%;
+}
+

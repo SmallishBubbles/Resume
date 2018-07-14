@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300, 400';
 
-body {
+/* body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
@@ -15,7 +15,7 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-}
+} */
 
 .post {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
@@ -63,4 +63,144 @@ html {
 .close img {
   width: 20px;
   height: 20px;
+}
+
+
+/* this is my other css */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Sacramento');
+body {
+  margin: 0%;
+  padding: 0%;
+  background-image: url(./components/realComponents/images/overviewmountainnostrokelong.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  font-family: 'Josefin Slab', serif;
+}
+
+footer {
+  border: 2px solid maroon;
+  background-color: paleturquoise;
+  max-width: 100%;
+  height: auto;
+}
+
+.test {
+  /* border: 2px solid black;
+    background: none; */
+  max-width: 100%;
+  min-height: 90vh;
+  margin: 0%;
+}
+
+.center {
+  text-align: center;
+}
+
+.linky {
+  color: black;
+  text-decoration: none;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #163e6b;
+}
+
+a:hover {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+#OverviewMountains {
+  color: black;
+}
+
+#selfperson {
+  background-image: url(./components/realComponents/images/icons/selfperson.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+#AboutMeForest {
+  background-image: url(./components/realComponents/images/aboutmeforestbluelong.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+  height: 75vw;
+}
+
+#PastExperienceRiver {
+  background-color: #477ab2;
+  background-repeat: no-repeat;
+  background-size: 104%;
+  width: 100vw;
+  height: 79vw;
+  margin-top: -1em;
+}
+
+#ImaginationOcean {
+  background-color: #7bb1dd;
+  margin: -1em 0em;
+  width: 100vw;
+  height: 75vw;
+}
+
+#city {
+  background-image: url(./components/realComponents/images/icons/city.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+#mountains {
+  background-image: url(./components/realComponents/images/icons/mountains.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+#unicorn {
+  background-image: url(./components/realComponents/images/icons/unicorn.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+}
+
+#mermaid {
+  background-image: url(./components/realComponents/images/icons/mermaid.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 95%;
+}
+
+#dog {
+  background-image: url(./components/realComponents/images/icons/doggo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55%;
+}
+
+#cat {
+  background-image: url(./components/realComponents/images/icons/cat.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55%;
+}
+
+#tea {
+  background-image: url(./components/realComponents/images/icons/tea.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75%;
+}
+
+#coffee {
+  background-image: url(./components/realComponents/images/icons/coffee.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 59%;
 }

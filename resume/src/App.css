@@ -31,7 +31,7 @@ footer {
   /* border: 2px solid black;
     background: none; */
   max-width: 100%;
-  min-height: 90vh;
+  min-height: 50vh;
   margin: 0%;
 }
 
@@ -66,12 +66,12 @@ a:hover{
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100vw;
-  height: 75vw;
+  height: auto;
 
 }
 
 #PastExperienceRiver {
-  background-color: #477ab2;
+  background-color: #7bb1dd;
   background-repeat: no-repeat;
   background-size: 104%;
   width: 100vw;
@@ -80,12 +80,11 @@ a:hover{
 }
 
 #ImaginationOcean {
-  background-color: #7bb1dd;
+  background-color: #477ab2;
   margin: -1em 0em;
   width: 100vw;
   height: 75vw;
 }
-
 
 
 
@@ -145,3 +144,4 @@ a:hover{
   background-position: center;
   background-size: 59%;
 }
+

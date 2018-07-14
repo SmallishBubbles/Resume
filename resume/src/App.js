@@ -28,12 +28,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/blog" component={Blog}/>
 
-          {/* <footer>
-            <p>links to all the goodies</p>
-            <p>although it just ocurred to me that I might put all the social media icons
-                in bubbles that are coming up from a treasure chest or fat fish or something
-            </p>
-          </footer> */}
+          
 
         </div>
       </BrowserRouter>
