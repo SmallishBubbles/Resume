@@ -2,10 +2,22 @@ import React, { Component, Fragment } from 'react'
 import Post from '../components/Post'
 import { Query } from 'react-apollo'
 import  { gql } from 'apollo-boost'
+import styled from 'styled-components';
+
+const BlogBox = styled.div`
+	width: 95%;
+	height: auto;
+	min-height: 95vh;
+	border-radius: 10px;
+	background-color: rgb(22, 83, 150, 0.75);
+	margin: auto;
+	padding: 3%;
+`;
 
 export default class DraftsPage extends Component {
   render() {
     return (
+      <BlogBox>
       <Query query={DRAFTS_QUERY}>
         {({ data, loading, error, refetch }) => {
           if (loading) {
@@ -42,6 +54,7 @@ export default class DraftsPage extends Component {
           )
         }}
       </Query>
+      </BlogBox>
     )
   }
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
+
 export default class Post extends Component {
   render() {
     let title = this.props.post.title

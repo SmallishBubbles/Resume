@@ -56,16 +56,13 @@ class OtherNav extends React.Component {
 
 				<NavStuff>
 
-					<Link className="linky" to="/feed" title="Feed">
-						<Element>Blog</Element>
-					</Link>
-					<NavLink className="linky" activeClassName="gray" exact={true} to="/feed" title="Feed">
-						<Element>Feed</Element>
-					</NavLink>
 					<NavLink className="linky" activeClassName="gray" exact={true} to="/drafts" title="Drafts">
 						<Element>Drafts</Element>
 					</NavLink>
 
+					<Link className="linky" to="/feed" title="Feed">
+						<Element>Blog</Element>
+					</Link>
 
                     <NavLink className="linky" activeClassName="gray" exact={true} to="/" title="Home">
                         <Element>About</Element>
