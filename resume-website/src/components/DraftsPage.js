@@ -12,7 +12,15 @@ const BlogBox = styled.div`
 	background-color: rgb(22, 83, 150, 0.75);
 	margin: auto;
 	padding: 3%;
+	font-family: 'Josefin Slab', serif;
 `;
+
+const Title = styled.h1`
+  text-align: center;
+  margin: auto;
+  font-family: 'Sacramento', cursive;
+`;
+
 
 export default class DraftsPage extends Component {
   render() {
@@ -38,7 +46,7 @@ export default class DraftsPage extends Component {
           return (
             <Fragment>
               <div className="flex justify-between items-center">
-                <h1>Drafts</h1>
+                <Title>Drafts</Title>
               </div>
               {data.drafts &&
                 data.drafts.map(draft => (

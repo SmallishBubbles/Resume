@@ -5,13 +5,20 @@ import  { gql } from 'apollo-boost'
 import styled from 'styled-components';
 
 const BlogBox = styled.div`
-  width: 95%;
-  height: auto;
-  min-height: 95vh;
-  border-radius: 10px;
-  background-color: rgb(22,83,150,0.75);
+	width: 95%;
+	height: auto;
+	min-height: 95vh;
+	border-radius: 10px;
+	background-color: rgb(22, 83, 150, 0.75);
+	margin: auto;
+	padding: 3%;
+	font-family: 'Josefin Slab', serif;
+`;
+
+const Title = styled.h1`
+  text-align: center;
   margin: auto;
-  padding: 3%;
+  font-family: 'Sacramento', cursive;
 `;
 
 
@@ -39,7 +46,7 @@ export default class FeedPage extends Component {
 
             return (
               <Fragment>
-                <h1>Feed</h1>
+                <Title>Blog</Title>
                 {data.feed &&
                   data.feed.map(post => (
                     <Post

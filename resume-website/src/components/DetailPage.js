@@ -4,6 +4,17 @@ import { withRouter } from 'react-router-dom'
 import  { gql } from 'apollo-boost'
 import { DRAFTS_QUERY } from './DraftsPage'
 import { FEED_QUERY } from './FeedPage'
+import styled from 'styled-components';
+
+const PostBox = styled.div`
+	width: 98%;
+	height: auto;
+	border-radius: 10px;
+	background-color: rgb(104, 108, 79);
+	margin: 3% auto;
+	padding: 0% 3%;
+	font-family: 'Josefin Slab', serif;
+`;
 
 class DetailPage extends Component {
   render() {
@@ -29,11 +40,13 @@ class DetailPage extends Component {
           const { post } = data
           const action = this._renderAction(post)
           return (
+            <PostBox>
             <Fragment>
               <h1 className="f3 black-80 fw4 lh-solid">{data.post.title}</h1>
               <p className="black-80 fw3">{data.post.text}</p>
               {action}
             </Fragment>
+            </PostBox>
           )
         }}
       </Query>

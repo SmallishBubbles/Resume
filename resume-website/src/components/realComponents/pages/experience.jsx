@@ -18,34 +18,35 @@ const Title = styled.div`
 	width: 50%;
 	text-align: center;
 	font-size: 3em;
+	font-family: 'Sacramento', cursive;
 `;
 
 const Education = styled.div`
 	float: left;
 	clear: left;
-	height: 15%;
+	height: auto;
 	width: 30%;
 	background-color: white;
 	//background-color: rgb(161, 171, 175, 0.75);
-	margin: 5em 2em;
+	margin: 7vw 2vw;
 	border-radius: 5px 30px;
 	text-align: center;
-    //box-shadow: -2px -2px 5px inset #2d4465;
-    padding: 1%;
+	box-shadow: -2px -2px 5px inset #2d4465;
+	padding: 1%;
 `;
 
 const Job = styled.div`
 	float: right;
 	clear: right;
-	height: 15%;
+	height: auto;
 	width: 30%;
 	background-color: white;
 	//background-color: rgb(161, 171, 175, 0.75);
-	margin-right: 2em;
+	margin-right: 2vw;
 	border-radius: 30px 5px;
 	text-align: center;
-    //box-shadow: 2px -2px 5px inset #2d4465;
-    padding: 1%;
+	box-shadow: 2px -2px 5px inset #2d4465;
+	padding: 1%;
 `;
 
 const Resume = styled.div`
@@ -55,11 +56,11 @@ const Resume = styled.div`
 	width: 30%;
 	background-color: white;
 	//background-color: rgb(161, 171, 175, 0.75);
-	margin: 2em;
+	margin: 2vw;
 	border-radius: 5px 30px;
 	text-align: center;
-    //box-shadow: -2px -2px 5px inset #2d4465;
-    padding: 1%;
+	box-shadow: -2px -2px 5px inset #2d4465;
+	padding: 1%;
 `;
 
 const TimelineBox = styled.div`
@@ -89,6 +90,7 @@ const Line = styled.div`
 
 
 
+
 class Experience extends React.Component {
     render() {
         return <section className="test" id="PastExperienceRiver">
@@ -113,8 +115,11 @@ class Experience extends React.Component {
 					<p> Functional Specialist / Financial Accountant </p>
 				</Job>
 				<Resume>
+					<a href="https://docs.google.com/document/d/1sBd1nafkn6v_ANm2CfoswxE_QdpmZZKLoVMjNVoalNE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
 					<img src={Paper} width="35%" height="auto" alt="Origami Paper Boat"/>
-					<p> Prefer to see my resume in paper format? </p>
+					</a>
+					<p> Prefer to see my resume in <a href="https://docs.google.com/document/d/1sBd1nafkn6v_ANm2CfoswxE_QdpmZZKLoVMjNVoalNE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">paper format?</a>
+					</p>
 				</Resume>
 				<Job> 
 					<img src={SpicyEskimo} width="50%" height="auto" alt="Spicy Eskimo Art Logo"/>
